@@ -3,7 +3,7 @@ Eat-Da-Burger! is a web-based application that simulates order-taking app. It le
 
 
 ## Description
-This application follows MVC design pattern and is built using Node.js Express, jQuery, MySQL, Bootstrap v3, Handlebars and a homemade ORM.  It runs in the browser on localhost:3030 or is hosted on Heroku [here](https://fierce-atoll-14039.herokuapp.com/).
+This application follows MVC design pattern and is built using Node.js Express, jQuery, MySQL, Bootstrap v3, Handlebars and a homemade ORM.  It runs in the browser on localhost:3000 or is hosted on Heroku [here](https://fierce-atoll-14039.herokuapp.com/).
 
 ## burger Interface
 After invoking the node file (server.js), in the broswer address window (localhost:3000), the user is presented with the following screen.
