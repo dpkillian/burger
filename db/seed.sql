@@ -6,6 +6,9 @@ VALUES
 ("Swiss No-Miss", FALSE), 
 ("Mad Hatter", TRUE), 
 ("Chili Please", FALSE), 
-("Hot Tomorrow", FALSE), 
-("Triper Yummy", TRUE), 
+("Hot Tomorrow", TRUE),
+("Cali Special", FALSE),  
+("Super Yummy", FALSE),
+("Jack Flash", TRUE),
+("Johnny Rocket", TRUE), 
 ("Greasy Musician", FALSE);
