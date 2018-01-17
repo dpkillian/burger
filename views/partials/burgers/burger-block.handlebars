@@ -1,9 +1,35 @@
-<li>
-	{{name}}
+<li class="list-group-item">
+	<b>{{this.burger_name}}</b>
 
-	<button class="change-devoured" data-id="{{id}}" data-newburger="{{devoured}}">
-		{{#if sleep}}DEVOURING TIME!{{else}}COOK AGAIN!{{/if}}
+	<button type="button" class="btn btn-xs btn-danger delete-burger pull-right" data-id="{{this.id}}">DELETE!</button>
+
+	<button type="button" class="btn btn-xs btn-success change-devoured pull-right" data-id="{{id}}" data-newburger="{{devoured}}">
+		{{#if devoured}}DEVOUR IT!{{else}}COOK AGAIN!{{/if}}
 	</button>
 
-	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
 </li>
+
+
+
+{{!--   <div class="panel-body">
+	<b>{{this.burger_name}}</b>
+
+	<button type="button" class="btn btn-danger delete-burger pull-right" data-id="{{this.id}}">DELETE!</button>
+
+	<button type="button" class="btn btn-success change-devoured pull-right" data-id="{{id}}" data-newburger="{{devoured}}">
+		{{#if devoured}}DEVOUR IT!{{else}}COOK AGAIN!{{/if}}
+	</button>
+
+  </div>
+ --}}
+
+
+
+    <!-- List group -->
+{{!--   <ul class="list-group">
+    <li class="list-group-item">Cras justo odio</li>
+    <li class="list-group-item">Dapibus ac facilisis in</li>
+    <li class="list-group-item">Morbi leo risus</li>
+    <li class="list-group-item">Porta ac consectetur ac</li>
+    <li class="list-group-item">Vestibulum at eros</li>
+  </ul> --}}
